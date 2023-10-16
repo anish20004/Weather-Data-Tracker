@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('./cloudbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    background-color: #0078d4;
+    color: white;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+select {
+    font-size: 16px;
+    padding: 5px;
+}
+
+button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px #ccc;
+    table-layout: fixed;
+    width: 70%;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+table th {
+    background-color: white;
+    color: #0078d4;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+table td {
+    padding: 10px;
+    background-color: #0078d4;
+    border-collapse: collapse;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+#main{
+    font-weight: bold;
+}
