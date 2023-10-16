@@ -3,7 +3,7 @@ const axios = require('axios');
 const { MongoClient } = require('mongodb');
 const app = express();
 const port = 3000;
-import mongodb_URI from './url';
+import mongodb_URI from './utils/url';
 
 const mongoURI = mongodb_URI;
 const dbName = 'weatherdb';
